@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+    <meta name="viewport" content="width=device-width" initial-scale="1">
+    <title>Gaming Store</title>
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&amp;family=Inter:wght@400;600&amp;family=Open+Sans:wght@400;600&amp;family=Poppins:wght@400;600&amp;family=Roboto+Condensed&amp;family=Roboto:ital,wght@0,100;0,300;1,100;1,300&amp;family=Tajawal:wght@200;400&amp;display=swap">
+  </head>
+  <body class="bg-gradient-to-r bg-indigo-500">
+    <div class="header">
+      <div class="nav justify-evenly"><i class="fa fa-bars toggle-sidebar"></i>
+        <div class="store-name flex items-center"><img class="mr-5" src="imgs/logo.jpg">
+          <h6>store shop</h6>
+        </div><i class="fa fa-cart-shopping cart"></i><i class="fa fa-search block md:hidden search-bar"></i>
+        <div class="input hidden md:inline-block rounded-md">
+          <input type="text" placeholder="Search">
+          <button>search</button>
+        </div>
+      </div>
+    </div>
+    <div class="order"> <i class="fa fa-xmark"></i>
+      <ul class="order-list"></ul>
+    </div>
+    <div class="options-box">
+      <div class="gear-box"><i class="fa fa-gear"></i></div>
+      <div class="option-box">
+        <h4>Background Gradient</h4>
+        <ul class="color-gradient">
+          <li data-gradient="from-red-700 to-red-400" style="--i: #f87171;"></li>
+          <li data-gradient="from-cyan-700 to-cyan-900" style="--i: #164e63;"></li>
+          <li data-gradient="from-rose-700 to-rose-400" style="--i: #fb7185;"></li>
+          <li data-gradient="from-stone-700 to-stone-400" style="--i: #a8a29e;"></li>
+        </ul>
+      </div>
+      <div class="option-box">
+        <h4>natural Background</h4>
+        <ul class="color">
+          <li data-color="bg-orange-600" style="--i: #ea580c;"></li>
+          <li class="active" data-color="bg-indigo-500" style="--i: #6366f1;"></li>
+          <li data-color="bg-stone-600" style="--i: #57534e;"></li>
+        </ul>
+      </div>
+      <div class="option-box">
+        <h4>Font</h4>
+        <select class="outline-none">
+          <option data-font="open-sans">open-sans</option>
+          <option data-font="dancing-script">dancing-script</option>
+          <option data-font="inter">inter</option>
+          <option data-font="poppins">poppins</option>
+          <option data-font="roboto">roboto</option>
+          <option data-font="roboto-condensed">roboto-condensed</option>
+          <option data-font="tajawal">tajawal</option>
+        </select>
+      </div>
+    </div>
+    <div class="sidebar shadow-xl">
+      <div class="icon flex sm:hidden rounded-full"><i class="fa fa-xmark sm"></i></div>
+      <ul class="link my-10">
+        <li><a href="#home">home</a></li>
+        <li><a href="#shop">shop</a></li>
+        <li><a href="#trendy">trendy</a></li>
+        <li><a href="#new">new</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </div>
+    <div class="landing-page"> 
+      <div class="content-img">
+        <div class="box active"><img src="imgs/bg/bg-1.jpg">
+          <p>YOUR GAMING JOURNEY START FROM HERER</p>
+        </div>
+        <div class="box"><img src="imgs/bg/bg-2.jpg">
+          <p>PLAY GAMES AND WIN REWARDS</p>
+        </div>
+        <div class="box"><img src="imgs/bg/bg-3.jpg">
+          <p>MUST POWERFUL GAME STORE IN YOUR HAND</p>
+        </div>
+        <div class="box"><img src="imgs/bg/bg-4.jpg">
+          <p>BE READY FOR JOURNEY</p>
+        </div>
+        <div class="box"><img src="imgs/bg/bg-5.jpg">
+          <p>BUY NEW GAMES FOR MORE FUN</p>
+        </div>
+        <div class="box"><img src="imgs/bg/bg-6.jpg">
+          <p>ARE YOU READY FOR YOUR NEXT CHALLENGE</p>
+        </div>
+        <div class="box"><img src="imgs/bg/default.jpg">
+          <p>BEST OFFER ON SALE MORE TAHN 10% DISCOUNT</p>
+        </div>
+      </div>
+    </div>
+    <div class="shop py-5">
+      <div class="head-line">
+        <h3>shop</h3>
+        <p class="pt-4">Hi There in our shop</p>
+      </div>
+      <div class="container items text-center py-8">
+        <div class="gallery grid text-center md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-4">
+          <div class="gallery-box"><img class="p-1" src="imgs/shop/shop_1.jpg"></div>
+          <div class="gallery-box"><img class="p-1" src="imgs/shop/shop_2.jpg"></div>
+          <div class="gallery-box"><img class="p-1" src="imgs/shop/shop_3.jpg"></div>
+          <div class="gallery-box"><img class="p-1" src="imgs/shop/shop_4.jpg"></div>
+          <div class="gallery-box"><img class="p-1" src="imgs/shop/shop_5.jpg"></div>
+          <div class="gallery-box"><img class="p-1" src="imgs/shop/shop_6.jpg"></div>
+          <div class="gallery-box"><img class="p-1" src="imgs/shop/shop_7.jpg"></div>
+          <div class="gallery-box"><img class="p-1" src="imgs/shop/shop_8.jpg"></div>
+        </div><a class="rounded-md inline-block text-center mx-auto mt-5" href="shop.html">Shopping</a>
+      </div>
+    </div>
+    <div class="seller py-5">
+      <div class="head-line">
+        <h3>Best Sellers</h3>
+        <p class="pt-4">Our best seller last time</p>
+      </div>
+      <div class="sliders pt-7">
+        <div class="slide grid gap-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <div class="slide-content container mx-auto shadow-lg">
+            <div class="img"><img src="imgs/selles/selles-1.jpg"></div>
+            <div class="text">
+              <h4>PS5</h4>
+              <p>loremloremloremloremloremlorem</p><span>number of selles: <span>50</span></span>
+              <button class="mt-5">add to cart</button>
+            </div>
+          </div>
+          <div class="slide-content container mx-auto shadow-lg">
+            <div class="img"><img src="imgs/selles/selles-2.jpg"></div>
+            <div class="text">
+              <h4>PS5 special Edition</h4>
+              <p>loremloremloremloremloremlorem</p><span>number of selles: <span>40</span></span>
+              <button class="mt-5">add to cart</button>
+            </div>
+          </div>
+          <div class="slide-content container mx-auto shadow-lg">
+            <div class="img"><img src="imgs/selles/selles-3.jpg"></div>
+            <div class="text">
+              <h4>4k screen</h4>
+              <p>loremloremloremloremloremlorem</p><span>number of selles: <span>100</span></span>
+              <button class="mt-5">add to cart</button>
+            </div>
+          </div>
+          <div class="slide-content container mx-auto shadow-lg">
+            <div class="img"><img src="imgs/selles/selles-4.jpg"></div>
+            <div class="text">
+              <h4>xbox controller</h4>
+              <p>loremloremloremloremloremlorem</p><span>number of selles: <span>80</span></span>
+              <button class="mt-5">add to cart</button>
+            </div>
+          </div>
+          <div class="slide-content container mx-auto shadow-lg">
+            <div class="img"><img src="imgs/selles/selles-5.jpg"></div>
+            <div class="text">
+              <h4>PS4 controller</h4>
+              <p>loremloremloremloremloremlorem</p><span>number of selles: <span>20</span></span>
+              <button class="mt-5">add to cart</button>
+            </div>
+          </div>
+          <div class="slide-content container mx-auto shadow-lg">
+            <div class="img"><img src="imgs/selles/selles-6.jpg"></div>
+            <div class="text">
+              <h4>PS5 controller</h4>
+              <p>loremloremloremloremloremlorem</p><span>number of selles: <span>15</span></span>
+              <button class="mt-5">add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="more"><a class="mt-5" href="#shop">More<i class="fa fa-arrow-right"></i></a></div>
+    </div>
+    <div class="customers py-10">
+      <div class="head-line">
+        <h3>Our Customers</h3>
+        <p class="pt-4">What our customers say</p>
+      </div>
+      <div class="container pt-7">
+        <div class="comment-box">
+          <div class="customer previous">
+            <div class="personal"><img src="imgs/avatar/used-1.jpg"></div>
+            <div class="comment">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. sit amet consectetur adipisicing elit.</p>
+              <div class="rate"><i class="fa fa-star"></i>
+                <h4>Johne Martin</h4>
+              </div>
+            </div>
+          </div>
+          <div class="customer current">
+            <div class="personal"><img src="imgs/avatar/used-2.jpg"></div>
+            <div class="comment">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elitsit amet consectetur adipisicing elit.</p>
+              <div class="rate"></div><i class="fa fa-star"></i>
+              <h4>Alphonso </h4>
+            </div>
+          </div>
+          <div class="customer next">
+            <div class="personal"><img src="imgs/avatar/used-3.jpg"></div>
+            <div class="comment">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. sit amet consectetur adipisicing elit.</p>
+              <div class="rate"><i class="fa fa-star"></i>
+                <h4>Gandam</h4>
+              </div>
+            </div>
+          </div>
+          <div class="customer">
+            <div class="personal"><img src="imgs/avatar/used-4.jpg"></div>
+            <div class="comment">
+              <p>bLajgghklr adipisicing elit.</p>
+              <div class="rate"><i class="fa fa-star"></i>
+                <h4>Ghost</h4>
+              </div>
+            </div>
+          </div>
+          <div class="customer">
+            <div class="personal"><img src="imgs/avatar/used-2.jpg"></div>
+            <div class="comment">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. sit amet consectetur adipisicing elit.</p>
+              <div class="rate"><i class="fa fa-star"></i>
+                <h4>Mike Tello</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="leave-comment text-center">
+          <button>Leave a Comment <i class="fa fa-comment"></i></button>
+        </div>
+        <div class="add-comment-box shadow-lg">
+          <div class="cross-icon"><i class="fa fa-xmark" id="close-comment"></i></div>
+          <p id="msg">Leave a Comment </p>
+          <input class="input" type="text" placeholder="Your name" required id="input">
+          <textarea class="input" placeholder="your Comment" required id="comment"></textarea><span class="choose">Choose Your avatar: </span>
+          <div class="img" id="avatar"><img class="avatar" src="imgs/avatar/avatar-1.jpg"><img src="imgs/avatar/avatar-2.jpg"><img class="avatar" src="imgs/avatar/avatar-3.jpg"><img src="imgs/avatar/avatar-4.jpg"></div>
+          <button class="block send" id="submit-comment">send</button>
+        </div>
+      </div>
+    </div>
+    <div class="footer py-7">
+      <div class="container">
+        <div class="section grid-cols-1 grid md:grid-cols-2 lg:grid-cols-4 text-center md:text-start">
+          <div class="company-name py-2">
+            <h4 class="name">Gaming store</h4>
+            <div class="icon"><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-youtube"></i><i class="fa-brands fa-instagram"></i></div>
+          </div>
+          <div class="support py-2">
+            <h4>Support</h4>
+            <ul>
+              <li>Contact us</li>
+              <li>FAQ</li>
+              <li>Sellers</li>
+              <li>Products</li>
+            </ul>
+          </div>
+          <div class="about py-2">
+            <h4>About
+              <ul>
+                <li>About Us</li>
+                <li>our Providers</li>
+                <li>New item</li>
+              </ul>
+            </h4>
+          </div>
+          <div class="contact py-2">
+            <div class="up-to-date text-white flex justify-center md:justify-start items-center"><i class="fa fa-envelope"></i>
+              <p class="ml-3">sign up to get notification</p>
+            </div>
+            <input class="block mt-4 w-full" type="email" placeholder="Enter your email">
+            <button>sign in</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body><script src = "js/Jquery-3.6.4.min.js"></script>
+<script src = "js/all.js"></script>
+<script src = "js/main.js"></script> 
+</html>
